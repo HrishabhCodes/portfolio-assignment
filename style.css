@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar  {
+    display: flex;
+    width: 100%;
+    margin-left: 10rem;
+}
+
+.nav-items {
+    margin: 4rem;
+}
+
+.box {
+    position: absolute;
+    left: 66.5rem;
+    z-index: -1;
+    width: 20%;
+    background-color: #a3cb37;
+    height: 38rem;
+}
+
+.intro-cont {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+
+.intro-text {
+    margin-top: 3rem;
+    width: 30%;
+    margin-right: 10rem;
+}
+
+.intro-heading {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.connect-btn {
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 1rem;
+    background-color: #a3cb37;
+    width: 30%;
+    color: white;
+    font-weight: 600;
+}
+
+.nav-items:hover, .connect-btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition-duration: 300ms;
+}
+
+.education {
+    margin-left: 9rem;
+    margin-top: 4rem;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ed-text {
+    font-size: 80px;
+    font-weight: 600;
+    width: 20%;
+    line-height: 6rem;
+}
+
+.ed-details {
+    margin-top: 1rem;
+    width: 43%;
+}
+
+.duration {
+    font-size: 30px;
+    margin-bottom: 0.5rem;
+    color: #a3cb37;
+    font-weight: 600;
+}
+
+.institute {
+    margin-bottom: 0.3rem;
+    font-weight: 600;
+}
+
+.ed-para{ 
+    font-size: 13px;
+    margin-bottom: 0.3rem;
+}
