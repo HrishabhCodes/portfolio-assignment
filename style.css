@@ -10,14 +10,17 @@ body {
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* NAVBAR */
 
 .navbar  {
     font-size: 13px;
     display: flex;
     width: 80%;
-    margin-left: 8rem;
-    /* background-color: yellow; */
+    margin-left: 4rem;
 }
 
 .nav-items {

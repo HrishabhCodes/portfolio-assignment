@@ -14,10 +14,36 @@
       <div class="box"></div>
       <div class="navbar">
         <div class="nav-items">HOME</div>
-        <div class="nav-items">EDUCATION</div>
-        <div class="nav-items">ACHIEVEMENTS</div>
-        <div class="nav-items">HOBBIES</div>
-        <div class="nav-items">CONTACT</div>
+        <div
+          class="nav-items"
+          onClick="document.getElementById('education').scrollIntoView();"
+        >
+          EDUCATION
+        </div>
+        <div
+          class="nav-items"
+          onClick="document.getElementById('projects').scrollIntoView();"
+        >
+          PROJECTS
+        </div>
+        <div
+          onClick="document.getElementById('achievements').scrollIntoView();"
+          class="nav-items"
+        >
+          ACHIEVEMENTS
+        </div>
+        <div
+          onClick="document.getElementById('hobbies').scrollIntoView();"
+          class="nav-items"
+        >
+          HOBBIES
+        </div>
+        <div
+          onClick="document.getElementById('footer').scrollIntoView();"
+          class="nav-items"
+        >
+          CONTACT
+        </div>
       </div>
     </header>
 
@@ -52,7 +78,7 @@
 
     <!-- EDUCATION -->
 
-    <div class="education">
+    <div id="education" class="education">
       <div class="pattern-bg">
         <img class="bg-pic" src="./assets/bg.png" alt="" />
       </div>
@@ -79,7 +105,7 @@
 
     <!-- MY WORK -->
 
-    <div class="work-cont">
+    <div id="projects" class="work-cont">
       <div class="work-head">My Work</div>
       <div class="work-text">
         “I love coding & ever since I took up ProGrad Junior, I’ve built some
@@ -169,7 +195,7 @@
 
     <!-- ACHIEVEMENTS -->
 
-    <div class="ach-cont">
+    <div id="achievements" class="ach-cont">
       <div class="achievement-list">
         <div class="achievement">
           <div class="ach-text">Topped my class with a CPGA of 9.2.</div>
@@ -204,7 +230,7 @@
 
     <!-- HOBBIES -->
 
-    <div class="hobbies-cont">
+    <div id="hobbies" class="hobbies-cont">
       <div class="hob-text">
         <div class="hob-header">My Side Hustle</div>
         <div class="hob-para">
@@ -227,7 +253,7 @@
 
     <!-- FOOTER -->
 
-    <footer>
+    <footer id="footer">
       <div class="contact-det">
         <div class="contact-head">Contact</div>
         <a href="mailto:rachel.green@gmail.com" class="mail"
