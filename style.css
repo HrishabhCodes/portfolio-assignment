@@ -10,6 +10,8 @@ body {
     padding: 0;
 }
 
+/* NAVBAR */
+
 .navbar  {
     font-size: 13px;
     display: flex;
@@ -22,11 +24,6 @@ body {
     margin: 3rem;
 }
 
-.prof-img {
-    width: 410px;
-    margin-left: 5rem;
-}
-
 .box {
     position: absolute;
     left: 51.7rem;
@@ -34,6 +31,13 @@ body {
     width: 20%;
     background-color: #a3cb37;
     height: 30rem;
+}
+
+/* INTRO */
+
+.prof-img {
+    width: 410px;
+    margin-left: 5rem;
 }
 
 .intro-cont {
@@ -56,12 +60,13 @@ body {
 .connect-btn {
     letter-spacing: 1px;
     text-align: center;
-    padding: 1rem;
+    padding: 0.8rem;
     background-color: #a3cb37;
     width: 30%;
     color: white;
     font-weight: 600;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    border-radius: 4px;
 }
 
 .nav-items:hover, .connect-btn:hover {
@@ -69,6 +74,8 @@ body {
     transform: scale(1.05);
     transition-duration: 300ms;
 }
+
+/* EDUCATION */
 
 .education {
     margin-left: 7rem;
@@ -116,4 +123,233 @@ body {
 .ed-para{ 
     font-size: 13px;
     margin-bottom: 0.3rem;
+}
+
+/* MY WORK */
+
+.work-cont {
+    width: 100%;
+    margin: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work-head {
+
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.work-text {
+    text-align: center;
+    margin: 4rem 0;
+    font-size: 13px;
+    width: 40%;
+}
+
+.project-cont {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 5rem;
+}
+
+.project {
+    width: 20%;
+    margin: 0px 4rem 4.5rem 4rem;
+    position: relative;
+}
+
+.mini-box {
+    width: 1.8rem;
+    height: 3rem;
+    background-color: #a3cb37;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+}
+
+.proj-pic {
+    width: 130px;
+}
+
+.proj-name {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.proj-btn {
+    font-size: 13px;
+    font-weight: 600;
+    color: #a3cb37;
+    margin-top: 0.3rem;
+}
+
+.proj-btn:hover, .proj-img:hover {
+    cursor: pointer;
+}
+
+.proj-desc {
+    margin: 0.1rem 0;
+    width: 80%;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* ACHIEVEMENTS */
+
+.ach-cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ach-header {
+    margin-right: 0.5rem;
+    width: 30%;
+    background-color: #a3cb37;
+    font-size: 80px;
+    font-weight: 600;
+    color: white;
+    padding: 3.2rem;
+    line-height: 5rem;
+    height: 340px;
+}
+
+.achievement-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 6rem;
+    width: 50%;
+}
+
+.achievement::before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    width: 10%;
+    height: 2px;
+    background-color: #a3cb37;
+    border: 0.08rem solid rgb(195, 195, 195);
+    z-index: 1;
+}
+
+.achievement {
+    position: relative;
+    margin: 0 2rem 5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 13px;
+    width: 32%;
+}
+
+/* HOBBIES */
+
+.hobbies-cont {
+    display: flex;
+    margin: 3rem 0;
+    height: 600px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hob-text {
+    width: 23%;
+}
+
+.hob-header {
+    line-height: 5.2rem;
+    width: 80%;
+    font-size: 80px;
+    font-weight: 600;
+    color: #a3cb37;
+    margin-bottom: 2rem;
+}
+
+.hob-para {
+    font-size: 13px;
+}
+
+.hob-images {
+    display: flex;
+    width: 40%;
+    height: 100%;
+}
+
+.cont1 {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.cont2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+    height: 100%;
+}
+
+.painting, .guitar {
+    width: 80%;
+}
+
+.reading, .friends, .badminton {
+    width: 95%;
+}
+
+.friends {
+    margin-top: 8px;
+}
+
+/* FOOTER */
+
+footer {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-det {
+    color: white;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    background-color: #a3cb37;
+}
+
+.contact-head {
+    margin-top: 3rem;
+    margin-left: 5rem;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+a {
+    margin-left: 5rem;
+    color: white;
+    font-size: 13px;
+    margin-bottom: 0.3rem;
+}
+
+.rights {
+    font-size: 13px;
+    margin-right: 6rem;
+    margin-top: 8rem;
+}
+
+.logos {
+    margin-left: 5rem;
+}
+
+.logo {
+    margin: 0 0.2rem;
+    width: 17px;
 }
