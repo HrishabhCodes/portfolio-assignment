@@ -11,22 +11,29 @@ body {
 }
 
 .navbar  {
+    font-size: 13px;
     display: flex;
-    width: 100%;
-    margin-left: 10rem;
+    width: 80%;
+    margin-left: 8rem;
+    /* background-color: yellow; */
 }
 
 .nav-items {
-    margin: 4rem;
+    margin: 3rem;
+}
+
+.prof-img {
+    width: 410px;
+    margin-left: 5rem;
 }
 
 .box {
     position: absolute;
-    left: 66.5rem;
+    left: 51.7rem;
     z-index: -1;
     width: 20%;
     background-color: #a3cb37;
-    height: 38rem;
+    height: 30rem;
 }
 
 .intro-cont {
@@ -36,13 +43,13 @@ body {
 }
 
 .intro-text {
+    font-size: 13px;
     margin-top: 3rem;
-    width: 30%;
-    margin-right: 10rem;
+    width: 32%;
 }
 
 .intro-heading {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 600;
 }
 
@@ -54,6 +61,7 @@ body {
     width: 30%;
     color: white;
     font-weight: 600;
+    margin-top: 2rem;
 }
 
 .nav-items:hover, .connect-btn:hover {
@@ -63,27 +71,38 @@ body {
 }
 
 .education {
-    margin-left: 9rem;
-    margin-top: 4rem;
+    margin-left: 7rem;
+    margin-top: 5rem;
     width: 60%;
     display: flex;
     justify-content: space-between;
 }
 
+.pattern-bg {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+}
+
+.bg-pic {
+    height: 235px;
+    width: 315px;
+}
+
 .ed-text {
     font-size: 80px;
-    font-weight: 600;
+    font-weight: 550;
     width: 20%;
     line-height: 6rem;
 }
 
 .ed-details {
     margin-top: 1rem;
-    width: 43%;
+    width: 53%;
 }
 
 .duration {
-    font-size: 30px;
+    font-size: 28px;
     margin-bottom: 0.5rem;
     color: #a3cb37;
     font-weight: 600;
